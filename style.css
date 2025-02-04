@@ -7,14 +7,18 @@ html,body{
     padding: 0%;
     box-sizing: border-box;
     margin: 0%;
-    background-color: rgb(49, 49, 100);
+    background-color: rgb(159, 159, 240);
 }
 
 .nav{
+
+    height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
     justify-content: space-around;
+    background-color: rgb(6, 6, 18);
+    color: bisque;
 }
 
 .right{
@@ -32,4 +36,10 @@ html,body{
 .right UL li{
     list-style: none;
     margin-right: 60px;
+}
+.left{
+    font-size: 1.3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: brown;
+    display: flex-start;
 }
